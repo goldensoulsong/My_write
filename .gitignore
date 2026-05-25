@@ -1,0 +1,23 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Auto-saves / temp
+*.tmp
+*.bak
+
+# Kiro / 工具缓存
+.kiro/cache/
+
+# 私有内容(本地保留,不推到远程)
+草稿/
+灵感/
+素材/
+scripts/
