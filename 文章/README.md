@@ -4,6 +4,16 @@
 
 ## AI 工具与人机协作
 
+### [Agent 的构建](2026/05/2026-05-31-agent的构建.md)
+
+读 Anthropic《Building Effective Agents》之后的收获与发散。
+
+从 LLM 的概率本质出发,论证 agent 和 workflow 的分界线:固定流程 cover 不了所有情况时才需要 agent。梳理了文章里的复杂度阶梯(单次调用 → prompt chaining → routing → parallelization → orchestrator-workers → evaluator-optimizer → full agent)、ACI 与 HCI 的类比、工具防呆设计等关键点。
+
+发散部分提出自己的核心论断:**没有评分系统的 agent 不是好的 agent。** 评分应覆盖单步、终局、累积三个维度。同时强调人类是关键链路——agent 越强,留给人的决策越难,人的决断能力反而需要刻意训练。
+
+最后画出自己理解的 agent 完整循环:输入 → 思考 → 行动 → 工具调用 → 返回 → 观察 → 判断 → (循环) → 评分过关 → 人类审查 → 最终输出。
+
 ### [该等的是 AI](2026/05/2026-05-25-该等的是AI.md)
 
 读两篇标题对仗的 HTML 之争文章——Anthropic Claude Code 团队 Thariq Shihipar 的《HTML 的不合理有效性》和 Kurtis Redux 的反驳《HTML 的不合理无效性》——之后的元视角思考。
