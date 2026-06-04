@@ -7,6 +7,14 @@
 
 ## 译述
 
+### [构建有效智能体 (Building Effective Agents)](2024-12-19-Building_Effective_Agents_构建有效智能体.md)
+
+**原作者**: Erik Schluntz, Barry Zhang (Anthropic)
+**发布**: 2024-12-19, Anthropic Engineering Blog
+**关联文章**: [Agent 的构建](../文章/2026-05-31-agent的构建.md)
+
+Anthropic 官方关于智能体构建的工程实践总结。文章将智能体系统分为“工作流（workflows）”和“智能体（agents）”，并详细介绍了增强型 LLM、提示词链、路由、并行化、编排者-工作者、评估者-优化者等核心设计模式。强调在构建 LLM 应用时应优先考虑简单的设计模式，仅在必要时增加复杂度。
+
 ### [HTML 的不合理有效性](2026-05-20-HTML的不合理有效性.md)
 
 **原作者**:Thariq Shihipar(Anthropic 技术员工,Claude Code 团队)
