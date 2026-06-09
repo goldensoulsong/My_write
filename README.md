@@ -24,6 +24,15 @@
 </details>
 
 <details>
+<summary><b>🔬 Harness (共 1 篇)</b> — 拆解顶级开源 Agent 代码的学习记录</summary>
+
+- [序章：一个 GBDT 模型教会我的事——Agency 来自模型，Agent = 模型 + Harness](./Harness/00_序章.md)
+
+👉 *[阅读该专栏的详细导读与目录](./Harness/README.md)*
+<br>
+</details>
+
+<details>
 <summary><b>✍️ 我写的文章 (共 4 篇)</b> — AI 工具与人机协作探索</summary>
 
 - [AI_Agent编程的约束与优化理论探究_系统性论述版本](./我写的文章/AI_Agent编程的约束与优化理论探究_系统性论述版本.md)
@@ -63,7 +72,7 @@
 
 - **语言**：以中文为主。
 - **格式**：采用纯 Markdown 编写。
-- **归档**：按主题与认知深度进行分类（我的思考 / 我写的文章 / 我读的文章 / 我的经验）。
+- **归档**：按主题与认知深度进行分类（我的思考 / Harness / 我写的文章 / 我读的文章 / 我的经验）。
 
 ## 版权声明
 
